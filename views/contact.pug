@@ -1,0 +1,18 @@
+extends layout
+block content
+     .container
+        form(action='/contact/send' method='post')
+            h1 #{title}
+                .form-group
+                    h1 #{msg}
+                    label(for="name", style={'font-size':'15px'}) Name
+                    input.form-control(type='text', name='name', placeholder='enter Name')
+                    
+                .form-group
+                    label(for="email", style={'font-size':'15px'}) Email
+                    input.form-control(type='email', name='email', placeholder='enter email')
+                    
+                .form-group
+                    label(for="message", style={'font-size':'15px'}) message
+                    textarea.form-control(name="message", cols="20", rows="5" ,placeholder="enter message")
+                button.btn.btn-primary(type='submit') Submit

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+    h1= title
+
+          .row
+            each service, i in Services
+             
+                .col-md-4.col-lg-4
+                     .card.card-body
+                        div(style={'background':'linear-gradient(to right #f00 ,blue'})
+                            h3 #{service.name}
+                            p(style={'font-size':'16px'}) #{service.discription}
+                            p(style={'font-size':'16px'}).
+                                Price Range: #{service.price_range}
+
+                     

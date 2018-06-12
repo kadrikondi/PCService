@@ -1,0 +1,26 @@
+[{
+    "name":"hardware engineering",
+    "discription":"We offer training of hardware enginnering for student and repair computer fo customers",
+    "price_range":"#400 - #900"
+    
+    
+    
+},
+
+
+ {
+ "name":"computer sales",
+ "discription":"We offer training of sales of computer system for student and repair computer fo customers",
+ "price_range":"#400 - #900"
+ },
+
+
+ 
+ {
+"name":"virus removal and anti-virus",
+ "discription":"We offer training of sales of anti-virus for student and repair computer fo customers",
+ "price_range":"#400 - #900"
+ }
+
+
+]

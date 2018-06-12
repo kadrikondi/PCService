@@ -1,0 +1,25 @@
+body {
+  padding: 0px ;
+  font:14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+
+}
+.navbar{
+  background: linear-gradient(to right blue ,red);
+}
+
+a {
+  color: #00B7FF;
+}
+ul{
+  color: #fff;
+  padding: 10px;
+  float: right;
+  align-items: flex-end;
+
+}
+.jumbotron{
+  overflow: hidden;
+  
+
+}
